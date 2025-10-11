@@ -44,6 +44,6 @@ ax.set_title(f"Analysis of COVID-19 Patient Discharge Rates : \nA State-Level Ge
                          })
 
 ax.axis("off")
-plt.tight_layout()
 plt.show()
 plt.savefig("covid-19_data analysis.png",dpi = 300)
+
