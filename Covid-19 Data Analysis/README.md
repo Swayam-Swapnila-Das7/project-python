@@ -8,7 +8,7 @@ This Python project analyzes COVID-19 data sourced from official government open
 
 ## Features
 
-* **COVID-19 Data from Official Sources**: Data is collected from trusted government open-source platforms (e.g., [Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19), [Our World in Data](https://github.com/owid/covid-19-data), or official health department datasets).
+* **COVID-19 Data from Official Sources**: Data is collected from trusted or government open-source platforms.
 * **Choropleth Map Visualization**: Creates a choropleth map showing the number of confirmed cases, deaths, and recoveries by country.
 * **Geospatial Data Analysis**: Uses `GeoPandas` to process geographical data and create accurate visualizations.
 * **Data Analysis with Pandas**: Leverages `pandas` for cleaning, filtering, and aggregating COVID-19 data.
@@ -26,10 +26,8 @@ This Python project analyzes COVID-19 data sourced from official government open
 
 ### Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/covid-19-data-analysis-python.git
-cd covid-19-data-analysis-python
-```
+   * clone it from the repository page.
+   * always make a copy of project first and use the git commands for version control.
 
 ### Install Dependencies
 
