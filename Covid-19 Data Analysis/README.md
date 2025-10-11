@@ -1,7 +1,3 @@
-Got it! Here's an updated version of the README with your specified libraries (`pandas`, `matplotlib`, `geopandas`) and data sourced from official government open-source data websites.
-
----
-
 # COVID-19 Data Analysis with Choropleth Map (Python)
 
 This Python project analyzes COVID-19 data sourced from official government open-source data websites and visualizes the results using choropleth maps. It aims to provide insights into the global spread of COVID-19 through interactive geographic visualizations.
