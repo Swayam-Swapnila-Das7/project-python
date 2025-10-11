@@ -12,7 +12,7 @@ except FileNotFoundError as e :
     print(f"Error : {e} . ensure that file is at right directory.")
     exit( )
 
-#make two column name equal
+#make two column names equal , one from each
 indian_map = indian_map.rename(columns = {"STNAME" : "State"})
 data = data.rename(columns={"State/UTs":"State"})
 
@@ -22,7 +22,7 @@ data["State"] = data["State"].str.upper().str.strip()
 
 #merged the data sets
 merge_data = indian_map.merge(data,on = "State",how = "left")
-#merge_data.dropna(subset = ["Death Ratio"],inplace = True)
+
 fig,ax = plt.subplots(1,1,figsize = (15,15))
 
 merge_data.plot(
@@ -46,4 +46,4 @@ ax.set_title(f"Analysis of COVID-19 Patient Discharge Rates : \nA State-Level Ge
 ax.axis("off")
 plt.tight_layout()
 plt.show()
-#plt.savefig("covid-19_data analysis.png",dpi = 300)
+plt.savefig("covid-19_data analysis.png",dpi = 300)
