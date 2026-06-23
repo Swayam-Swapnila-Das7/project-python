@@ -10,6 +10,7 @@ Click on any of the links below to navigate directly to that project's folder:
 
 * 📁 **[Covid-19 Data Analysis](./Covid-19%20Data%20Analysis/)** – A script focused on sorting, filtering, and analyzing global pandemic records using data science libraries.
 * 📁 **[File Organiser](./Utility/File_Organiser/)** – An automation utility that dynamically sorts files into folders based on their extensions.
+* 📂 **[CPU_Analyzer](./Utility/CPU_Analyzer/)** - An automated Python CLI utility that extracts, parses, and caches kernel-level CPU telemetry on Linux and Android (Termux) environments with an interactive, pattern-matched interface for instant hardware reporting.
 
 ---
 
@@ -19,6 +20,7 @@ Click on any of the links below to navigate directly to that project's folder:
 | :--- | :--- | :--- |
 | **[Covid-19 Data Analysis](./Covid-19%20Data%20Analysis/)** | Data Analysis | Python (`pandas`, `geopandas`, `matplotlib.pyplot`) |
 | **[File Organiser](./Utility/File_Organiser/)** | Automation / Utility | Python (`os`, `shutil`, `pathlib`) |
+| **[CPU_Analyzer](./Utility/CPU_Analyzer/)** | Automation / Utility | Python (`os`, `datetime`, `platform`,`subprocess`,`sys`),Linux command(`lscpu`) |
 
 ---
 
