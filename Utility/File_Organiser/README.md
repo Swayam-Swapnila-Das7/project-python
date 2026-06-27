@@ -12,7 +12,6 @@ Built using pure standard library modules (`os`, `shutil`, `pathlib`), this scri
 * **Case-Insensitive Normalization:** Seamlessly catches and moves uppercase extensions (e.g., `.PNG`, `.PDF`, `.ZIP`) instead of dumping them into Miscellaneous.
 * **Self-Preservation Safeguard:** Programmatically detects its own file name (`Path(__file__).name`) to ensure it never accidentally moves itself mid-execution.
 * **Directory Isolation:** Exclusively operates on flat files. Sub-folders and directories remain completely untouched.
-* **Fail-Safe Architecture:** Wrapped in standard Python entry point conventions (`if __name__ == '__main__':`) for modularity and safety.
 * **Success Feedback:** Displays a confirmation message once all files have been successfully organized.
 
 ---
