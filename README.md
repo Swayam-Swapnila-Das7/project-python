@@ -31,3 +31,15 @@ To download and run any of these projects locally, use the following commands in
 ```bash
 git clone [https://github.com/Swayam-Swapnila-Das7/project-python.git](https://github.com/Swayam-Swapnila-Das7/project-python.git)
 cd project-python
+```
+![GitHub Stars](https://img.shields.io/github/stars/Swayam-Swapnila-Das7/project-python?style=social)
+
+
+
+
+![Clones](https://img.shields.io/badge/clones-79-blue)
+
+
+
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
