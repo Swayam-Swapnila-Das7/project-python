@@ -35,6 +35,7 @@ YELLOW = "\033[93m"
 PURPLE = "\033[0;35m"
 RESET = "\033[0m"
 
+# file extensions 
 format = {
       #Documents
       ".pdf" : "Documents",
@@ -74,6 +75,7 @@ format = {
       ".rs" : "Code"
 }
 
+# name of currentdirectory and current script
 current_directory = str(os.getcwd())
 script_name = Path(__file__).name
 
@@ -84,6 +86,7 @@ print(YELLOW + "    [LinkedIn  : https://www.linkedin.com/in/swayam-swapnila-das
 print(YELLOW + "    [GitHub    : https://github.com/Swayam-Swapnila-Das7]" + RESET)
 print('\n' + '='*55 + '\n')
 
+#count the number of files and directories in current working directory 
 def count_before() :
 
     file_count = 0
@@ -109,7 +112,7 @@ def count_before() :
         print(RED + f'[-]Error : {e} ' + RESET)
         return
 
-
+# Count the number of entries in each directory
 def count_after() :
 
     try :
@@ -125,7 +128,7 @@ def count_after() :
         print(RED + f'[-]Error : {e} ' + RESET)
         return
             
-
+# organize files by moving them to specific folders
 def organize() :
     count_before()
      # Create directories if they do not exist
@@ -164,6 +167,7 @@ def organize() :
     count_after()
 
 
+# list all the entries in current working directory 
 def list_dir() :
     try :
         ls = os.listdir('.')
@@ -174,6 +178,7 @@ def list_dir() :
         print(RED + f'[-]Error : {e}' + RESET)
         return
 
+# change current working directory
 def change_dir(my_directory) :
     try :
         os.chdir(my_directory)
